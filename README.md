@@ -17,7 +17,6 @@ Automation tools into the process:
 
 3. **Continuous Integration/Continuous Deployment (CI/CD)**: Implement CI/CD pipelines using tools like Azure DevOps, Jenkins, or GitHub Actions to automate the deployment of your applications and configurations to both on-premises and Azure environments.
 
-[Quickstart: Deploy SQL Server on Linux using an Ansible playbook
 
    [Jenkins: Microsoft SQL Server Database](https://plugins.jenkins.io/database-sqlserver/)
 
@@ -53,21 +52,21 @@ The implementation of automation tools and processes can span both your Azure cl
 2. **On-Premises Automation**:
    - Infrastructure Deployment: Terraform is an infrastructure-as-code software tool created by HashiCorp. Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON. 
 
-[Install Terraform on an on-premises machine and configure Terraform](https://www.alibabacloud.com/help/en/cloud-firewall/developer-reference/install-terraform-on-an-on-premises-machine-and-configure-terraform)
+   [Install Terraform on an on-premises machine and configure Terraform](https://www.alibabacloud.com/help/en/cloud-firewall/developer-reference/install-terraform-on-an-on-premises-machine-and-configure-terraform)
     
    - Configuration Management: Use configuration management tools like Ansible, Puppet, or Chef to automate the setup and configuration of on-premises servers and networking equipment. Apply automation scripts to configure software, services, and system settings on your on-premises servers.
 
-[Installing Ansible Automation Platform (AAP) on-premise (Linux/Fedora/RHEL9)](https://medium.com/@julialiu08/installing-ansible-automation-platform-on-premise-linux-fedora-rhel9-770c03abe0ed)
+   [Installing Ansible Automation Platform (AAP) on-premise (Linux/Fedora/RHEL9)](https://medium.com/@julialiu08/installing-ansible-automation-platform-on-premise-linux-fedora-rhel9-770c03abe0ed)
 
 [How to provision an Azure SQL Database using Ansible](https://www.sqlshack.com/how-to-provision-azure-sql-database-using-ansible/)
    
    - Continuous Integration/Continuous Deployment (CI/CD): Implement CI/CD pipelines using tools like Jenkins or GitLab CI to automate the deployment of applications and configurations to on-premises servers.
 
-[Install Jenkins on Windows](https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-installation-on-windows)
+   [Install Jenkins on Windows](https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-installation-on-windows)
    
    - Monitoring and Alerting Automation: Deploy monitoring solutions such as Prometheus, Grafana, or ELK stack on-premises, and automate their configuration and alerting processes.
 
-[install Prometheus](https://prometheus.io/docs/prometheus/latest/installation/)   
+   [install Prometheus](https://prometheus.io/docs/prometheus/latest/installation/)   
    
    - Backup and Disaster Recovery Automation: Utilize backup and disaster recovery solutions compatible with your on-premises environment, and automate backup schedules, retention policies, and failover processes.
 
