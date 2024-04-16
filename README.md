@@ -9,19 +9,19 @@ Automation tools into the process:
 
 1. **Infrastructure as Code (IaC)**: Use tools like Azure Resource Manager (ARM) templates or Terraform to define and deploy your Azure infrastructure in a declarative manner. This ensures consistency and repeatability in your deployments.
 
-[Create an Azure SQL Database server and database using Terraform](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-terraform-quickstart?view=azuresql&tabs=azure-cli)
+   [Create an Azure SQL Database server and database using Terraform](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-terraform-quickstart?view=azuresql&tabs=azure-cli)
 
 2. **Configuration Management**: Tools like Ansible, Puppet, or Chef can help automate the configuration of your on-premises servers and Azure resources. You can define the desired state of your systems and let these tools enforce that state automatically.
 
-[Quickstart: Deploy SQL Server on Linux using an Ansible playbook](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-deploy-ansible?view=sql-server-ver16)
+   [Quickstart: Deploy SQL Server on Linux using an Ansible playbook](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-deploy-ansible?view=sql-server-ver16)
 
 3. **Continuous Integration/Continuous Deployment (CI/CD)**: Implement CI/CD pipelines using tools like Azure DevOps, Jenkins, or GitHub Actions to automate the deployment of your applications and configurations to both on-premises and Azure environments.
 
 [Quickstart: Deploy SQL Server on Linux using an Ansible playbook
 
-[Jenkins: Microsoft SQL Server Database](https://plugins.jenkins.io/database-sqlserver/)
+   [Jenkins: Microsoft SQL Server Database](https://plugins.jenkins.io/database-sqlserver/)
 
-[Install Azure DevOps on-premises on a single server](https://learn.microsoft.com/en-us/azure/devops/server/install/single-server?view=azure-devops-2022)
+   [Install Azure DevOps on-premises on a single server](https://learn.microsoft.com/en-us/azure/devops/server/install/single-server?view=azure-devops-2022)
 
 4. **Monitoring and Alerting Automation**: Set up automated monitoring and alerting using tools like Azure Monitor, Prometheus, Grafana, or ELK stack. Define thresholds and conditions for alerts, and automate responses to common issues.
 
