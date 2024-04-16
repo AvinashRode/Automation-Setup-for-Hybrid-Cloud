@@ -58,7 +58,7 @@ The implementation of automation tools and processes can span both your Azure cl
 
       [Installing Ansible Automation Platform (AAP) on-premise (Linux/Fedora/RHEL9)](https://medium.com/@julialiu08/installing-ansible-automation-platform-on-premise-linux-fedora-rhel9-770c03abe0ed)
 
-[How to provision an Azure SQL Database using Ansible](https://www.sqlshack.com/how-to-provision-azure-sql-database-using-ansible/)
+      [How to provision an Azure SQL Database using Ansible](https://www.sqlshack.com/how-to-provision-azure-sql-database-using-ansible/)
    
    - Continuous Integration/Continuous Deployment (CI/CD): Implement CI/CD pipelines using tools like Jenkins or GitLab CI to automate the deployment of applications and configurations to on-premises servers.
 
