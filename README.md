@@ -1,11 +1,39 @@
 
+##Resources we need for FASCON Project
+
+![Screenshot (11)](https://github.com/AvinashRode/Automation-Setup-for-Hybrid-Cloud/assets/61016875/c8fc772c-5f5c-4606-96cf-554955a2c5ed)
+
+A hybrid cloud structure with Azure SQL Database used alongside an on-premises database, connected via a site-to-site VPN.
+
+1. **Azure SQL Database**: This represents the cloud-based Azure SQL Database service provided by Microsoft Azure.
+
+2. **On-Premises Database Server**: Depicts the physical or virtual server hosting the on-premises database within your organization's data center.
+
+3. **Site-to-Site VPN Gateway**: Represents the VPN gateway devices configured on both ends of the connection to establish a secure communication channel between the on-premises network and the Azure Virtual Network.
+
+4. **Azure Virtual Network (VNet)**: Depicts the isolated network environment within Azure where resources like Azure SQL Database are deployed. It's connected to the on-premises network via the VPN gateway.
+
+5. **On-Premises Network**: Represents the internal network infrastructure of your organization where the on-premises database server resides.
+
+6. **Azure Resource Group**: Not shown in the diagram, but it's a logical container that holds related Azure resources such as the Azure SQL Database, Azure Virtual Network, VPN Gateway, etc.
+
+**Additional Resources:**
+
+- **Azure Virtual Network Gateway**: Configured within the Azure portal to establish the site-to-site VPN connection.
+
+- **Firewalls and Network Security Groups (NSGs)**: Used to control traffic to and from Azure resources and on-premises networks, ensuring secure communication.
+
+- **Azure ExpressRoute (Optional)**: If higher bandwidth, lower latencies, and more consistent network performance are required, Azure ExpressRoute can be used as an alternative to VPN connections.
+
+- **Azure Active Directory (AAD)**: Provides identity and access management services for Azure resources, enabling secure authentication and authorization.
+
+- **Monitoring and Logging**: Utilize Azure Monitor and Azure Log Analytics for monitoring the performance, availability, and security of the hybrid infrastructure.
+
+- **Backup and Disaster Recovery**: Implement Azure Backup and Azure Site Recovery to ensure data protection and business continuity across on-premises and cloud environments.
+
 # Automation setup for FASCON 
 
 Automation tools can streamline the setup, deployment, management, and monitoring of your hybrid system.
-
-## Documentation
-
-Automation tools into the process:
 
 1. **Infrastructure as Code (IaC)**: Use tools like Azure Resource Manager (ARM) templates or Terraform to define and deploy your Azure infrastructure in a declarative manner. This ensures consistency and repeatability in your deployments.
 
